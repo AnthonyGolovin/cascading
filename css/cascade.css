@@ -1,0 +1,37 @@
+.column {
+  width: 600px;
+  float: right;
+  text-align: left;
+.option2 {
+
+}
+.option1 {
+  border: 2px solid green;
+}
+.option2 {
+  width: 300px;
+  float; left;
+}
+.option3 {
+  width: 300px;
+  float; left'
+}
+.column2 {
+  width:250px;
+  float:left;
+
+}
+.my-class {
+  margin: 12px;
+  border: 2px solid green;
+  padding: 4px;
+  background-color: orange;
+}
+.cascade1 p {
+background-color: green;
+
+}
+
+.cascade2 p {
+
+}
