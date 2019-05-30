@@ -3,19 +3,6 @@
   float: left;
   text-align: center;
 }
-
-.column2 {
-  width: 600px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.column3 {
-  width: 600px;
-  float: right;
-  text-align: center;
-}
-
 h3 {
   font-family: fantasy;
   text-align: center;
@@ -29,4 +16,31 @@ img {
 }
 img.cool {
 border: 10px solid yellow;
+}
+@media screen and (min-width: 1001px) {
+  .column {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 1000px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 550px) and (min-width: 300px) {
+  body {
+    font-style: italic;
+    font-size: 20px;
+  }
+  img {
+    max-width: 150px;
+  }
+  .column1 {
+    width: 250px;
+  }
 }
